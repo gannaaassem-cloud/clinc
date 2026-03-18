@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("imgs/ppp.jpeg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+
+header{
+    width: 100%;
+    height: 60px;
+    padding: 30px 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+header .logo{
+    display: flex;
+    align-items: center;
+}
+
+header .logo img{
+    width: 60px;
+}
+
+header .logo h2{
+    color:rgb(52 136 187) ;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 30px;
+}
+
+header nav ul li a{
+    color: rgb(52 136 187);
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1.3px;
+    font-size: 17px;
+    transition: ease 0.4s;
+    -webkit-transition: ease 0.4s;
+    -moz-transition: ease 0.4s;
+    -ms-transition: ease 0.4s;
+    -o-transition: ease 0.4s;
+}
+
+header nav ul li a:hover{
+    color: #10465d;
+}
+main{
+    padding-left: 60px;
+    padding-bottom: 50px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+main h1{
+    color: rgb(52 136 187);
+    font-size: 60px;
+    font-weight: 1000;
+    margin-bottom: 40px;
+}
+
+main .img {
+    height: 100%;
+    width: 45%;
+}
+
+/* main .img img{
+    height: 102%;
+    width: 97%;
+    border-radius: 220px 220px 220px 220px ;
+    -webkit-border-radius: 220px 220px 220px 220px ;
+    -moz-border-radius: 220px 220px 220px 220px ;
+    -ms-border-radius: 220px 220px 220px 220px ;
+    -o-border-radius: 220px 220px 220px 220px ;
+} */
+
+main p{
+    color: #10465d;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 25px 0px 40px;
+    letter-spacing: 1.3px;
+}
+
+main a{
+    width: 120px;
+    background-color: rgb(52 136 187) ;
+    padding: 15px;
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    text-decoration: none;
+    margin-top: 25px 0;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+    transition: transform ease 0.3s;
+    -webkit-transition: transform ease 0.3s;
+    -moz-transition: transform ease 0.3s;
+    -ms-transition: transform ease 0.3s;
+    -o-transition: transform ease 0.3s;
+}
+
+main a:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    background-color: #567382;
+    color: #bce2df;
+}
+
+.About-Us {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.About-Us h2{
+    font-size: 43px;
+    font-weight: 700;
+    margin: 58px 16 30px;
+    color:  rgb(52 136 187);
+    
+}
+
+.About-Us .information{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.information .p{
+    width: 48%;
+    padding: 25px;
+    
+}
+
+.information .p h3{
+    margin-bottom: 40px;
+    font-size: 35px;
+    color: rgb(52, 135, 187);
+}
+
+.information .image{
+    height: 100%;
+    width: 45%;
+}
+
+.information .image img{
+    height: 650px;
+    width: 100%;
+}
+
+.information .p p{
+    line-height: 2;
+    color: #10465dbe;
+    font-weight: 1000;
+    font-size: 18px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 60px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.left{
+    width: 50%;
+    background: white;
+}
+
+/* .image{
+   width: 45%;
+    height: 500px;
+} */
+
+.image img{
+    width: 500px;
+    height: 500px;
+    border-radius: 150px ;
+    -webkit-border-radius: 150px ;
+    -moz-border-radius: 150px ;
+    -ms-border-radius: 150px ;
+    -o-border-radius: 150px ;
+}
+
+.Servies{
+    width: 100%;
+}
+
+.Servies .h2{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 700;
+    color:  rgb(52 136 187);
+}
+
+.Servies .content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Servies .content div{
+    width: 450px;
+    background:linear-gradient(to right,#e3f2fd, #90caf99a,#2195f380, rgba(52, 135, 187, 0.603));
+    margin: 20px;
+    padding: 20px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    transition: transform ease 0.3s;
+    -webkit-transition: transform ease 0.3s;
+    -moz-transition: transform ease 0.3s;
+    -ms-transition: transform ease 0.3s;
+    -o-transition: transform ease 0.3s;
+}
+
+.Servies .content div:hover{
+    transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -o-transform: translateY(-15px);
+}
+
+.Servies .content div img{
+    width: 100%;
+    height: 65%;
+    margin-bottom: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+    transition: transform ease 0.3s;
+    -webkit-transition: transform ease 0.3s;
+    -moz-transition: transform ease 0.3s;
+    -ms-transition: transform ease 0.3s;
+    -o-transition: transform ease 0.3s;
+}
+
+.Servies .content div img:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.Servies .content div h3{
+    margin-bottom: 25px;
+    font-size: 30px;
+    color: #002147;
+}
+
+.Servies .content div p{
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: #002147;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.doctors{
+    width: 100%;
+}
+
+
+.doctors .h2{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 700;
+    color:  rgb(52 136 187);
+}
+
+.doctors .doctors-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.doctors .doctors-content div{
+    width: 450px;
+    background:linear-gradient(to right,#e3f2fd, #90caf99a,#2195f380, rgba(52, 135, 187, 0.603));
+    margin: 20px;
+    padding: 20px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    transition: transform ease 0.3s;
+    -webkit-transition: transform ease 0.3s;
+    -moz-transition: transform ease 0.3s;
+    -ms-transition: transform ease 0.3s;
+    -o-transition: transform ease 0.3s;
+}
+
+.doctors .doctors-content div:hover{
+    transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -o-transform: translateY(-15px);
+}
+
+.doctors .doctors-content div img{
+    width: 100%;
+    height: 65%;
+    margin-bottom: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+    transition: transform ease 0.3s;
+    -webkit-transition: transform ease 0.3s;
+    -moz-transition: transform ease 0.3s;
+    -ms-transition: transform ease 0.3s;
+    -o-transition: transform ease 0.3s;
+}
+
+.doctors .doctors-content div img:hover{
+     transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.doctors .doctors-content div h3{
+    margin-bottom: 25px;
+    font-size: 30px;
+    color: #002147;
+}
+
+.doctors .doctors-content div h5{
+    margin-bottom: 25px;
+    font-size: 20px;
+    color: #002147;
+}
+
+.doctors .doctors-content div p{
+     line-height: 1.5;
+    margin-bottom: 15px;
+    color: #002147;
+    font-size: 16px;
+    font-weight: 600;
+}
